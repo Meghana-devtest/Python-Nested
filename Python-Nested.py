@@ -1,3 +1,5 @@
+#Script is to retrive the key value pairs(nested)
+
 def dataretrival(Employee_details):
     for key, value in Employee_details.items():
         if type(value) is dict:
